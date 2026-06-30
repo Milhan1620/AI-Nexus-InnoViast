@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI-Nexus — Intelligent Automation &amp; AI Products</title>
+<meta name="description" content="AI-Nexus designs and ships practical AI products and automation tools. Explore the product lineup, meet the team, or join an upcoming webinar.">
+<meta name="author" content="Milhan Musharaf">
+
+<!-- Tailwind utilities (used for layout helpers alongside the custom design system in styles.css) -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    corePlugins: { preflight: false }
+  };
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a href="#main" class="visually-hidden">Skip to main content</a>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="wrap">
+    <a href="#top" class="logo">
+      AI-NEXUS
+      <span>AI Products &amp; Automation · Est. 2019</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#catalog">Products</a>
+      <a href="#shop">About</a>
+      <a href="#sessions">Webinars</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a href="#catalog" class="btn btn--primary nav-cta">Explore Products</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Toggle menu">
+        <svg id="iconMenu" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobileMenu" class="mobile-menu" aria-label="Mobile">
+    <a href="#catalog">Products</a>
+    <a href="#shop">About</a>
+    <a href="#sessions">Webinars</a>
+    <a href="#contact">Contact</a>
+    <a href="#catalog" class="btn btn--primary" style="margin-top: 1rem;">Explore Products</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-copy">
+        <span class="eyebrow">AI Product Studio · Est. 2019</span>
+        <h1>Built for intelligent<br><em>automation.</em></h1>
+        <p>AI-Nexus designs and ships AI-driven products that help teams move faster — from conversational tools to predictive automation pipelines, engineered for real-world scale.</p>
+        <div class="hero-actions">
+          <a href="#catalog" class="btn btn--primary">Explore the products</a>
+          <a href="#shop" class="btn btn--ghost">Meet the team</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>40+</strong>
+            <span>AI products shipped</span>
+          </div>
+          <div>
+            <strong>7</strong>
+            <span>Years running</span>
+          </div>
+          <div>
+            <strong>120K+</strong>
+            <span>API calls per day</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="vinyl-wrap" aria-hidden="true">
+        <div class="vinyl">
+          <span class="vinyl-label-text">AI<br>Nexus</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== MARQUEE ===================== -->
+  <div class="marquee" role="presentation" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Now building</span>Machine learning pipelines<span>·</span>Conversational AI<span>·</span>Computer vision<span>·</span>Predictive analytics<span>·</span>Developer APIs
+      <span>Now building</span>Machine learning pipelines<span>·</span>Conversational AI<span>·</span>Computer vision<span>·</span>Predictive analytics<span>·</span>Developer APIs
+    </div>
+  </div>
+
+  <!-- ===================== CATALOG ===================== -->
+  <section id="catalog">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">The products</span>
+        <h2>Now shipping</h2>
+        <p>Three flagship products currently in production. Each is built in-house and engineered for reliability at scale.</p>
+      </div>
+
+      <div class="catalog-grid">
+
+        <article class="release-card">
+          <div class="release-art" style="background:#3e6259;">
+            <div class="disc"></div>
+          </div>
+          <div class="release-body">
+            <p class="catalog-num">AN-014</p>
+            <h3>NexusChat</h3>
+            <p>Conversational AI / NLP Platform</p>
+            <div class="tag-row">
+              <span class="tag">REST API</span>
+              <span class="tag">Cloud-hosted</span>
+              <span class="tag">10K+ users</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="release-card">
+          <div class="release-art" style="background:#c44536;">
+            <div class="disc"></div>
+          </div>
+          <div class="release-body">
+            <p class="catalog-num">AN-013</p>
+            <h3>VisionStack</h3>
+            <p>Computer Vision Platform</p>
+            <div class="tag-row">
+              <span class="tag">SDK</span>
+              <span class="tag">On-prem</span>
+              <span class="tag">5K+ deployments</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="release-card">
+          <div class="release-art" style="background:#e8a33d;">
+            <div class="disc"></div>
+          </div>
+          <div class="release-body">
+            <p class="catalog-num">AN-012</p>
+            <h3>PredictIQ</h3>
+            <p>Predictive Analytics Suite</p>
+            <div class="tag-row">
+              <span class="tag">Dashboard</span>
+              <span class="tag">SaaS</span>
+              <span class="tag">2K+ teams</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="center" style="margin-top: var(--space-5);">
+        <a href="#contact" class="btn btn--ghost">Ask about custom solutions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SHOP ===================== -->
+  <section id="shop" class="section-paper">
+    <div class="wrap shop-grid">
+      <div>
+        <span class="eyebrow">About us</span>
+        <h2 style="margin-top: var(--space-2); font-size: var(--step-3);">Engineers building practical AI</h2>
+        <p style="margin-top: var(--space-3); max-width: 46ch;">A small team of machine learning engineers, researchers, and product designers shipping AI tools that solve real problems. We believe in transparent pricing, real documentation, and AI that augments your team instead of replacing it.</p>
+
+        <table class="hours-table">
+          <tr><td>Monday – Friday</td><td>09:00 – 18:00</td></tr>
+          <tr><td>Saturday</td><td>10:00 – 14:00</td></tr>
+          <tr><td>Sunday</td><td>Closed</td></tr>
+          <tr><td>Support</td><td>24/7 via email</td></tr>
+        </table>
+
+        <a href="#contact" class="btn btn--on-paper" style="margin-top: var(--space-4);">Get in touch</a>
+      </div>
+
+      <div class="shop-art" aria-hidden="true">
+        <div class="crate"></div><div class="crate"></div><div class="crate"></div><div class="crate"></div>
+        <div class="crate"></div><div class="crate"></div><div class="crate"></div><div class="crate"></div>
+        <div class="crate"></div><div class="crate"></div><div class="crate"></div><div class="crate"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SESSIONS ===================== -->
+  <section id="sessions">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">Events</span>
+        <h2>Upcoming webinars</h2>
+        <p>Live product demos and AI deep-dives, hosted online. Seats are limited to twenty and go fast — reserve through the contact form.</p>
+      </div>
+
+      <div class="sessions-list">
+        <div class="session-row">
+          <div class="session-date">JUL<br>11</div>
+          <div>
+            <h3>Product Demo: NexusChat</h3>
+            <p>A live walkthrough of our newest conversational AI features and integrations.</p>
+          </div>
+          <a href="#contact" class="btn btn--ghost session-cta">Reserve a seat</a>
+        </div>
+        <div class="session-row">
+          <div class="session-date">JUL<br>25</div>
+          <div>
+            <h3>AI Strategy Workshop</h3>
+            <p>A hands-on session on integrating AI products into your existing workflows.</p>
+          </div>
+          <a href="#contact" class="btn btn--ghost session-cta">Reserve a seat</a>
+        </div>
+        <div class="session-row">
+          <div class="session-date">AUG<br>08</div>
+          <div>
+            <h3>Sneak Peek: AN-015</h3>
+            <p>First public look at our next AI product, three weeks before launch.</p>
+          </div>
+          <a href="#contact" class="btn btn--ghost session-cta">Reserve a seat</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2 style="margin-top: var(--space-2); font-size: var(--step-3);">Reserve, ask, or partner with us</h2>
+        <p style="margin-top: var(--space-2); color: var(--paper-dim); max-width: 42ch;">Reserving a webinar seat, asking about a product, or exploring a partnership — this form goes straight to our team.</p>
+
+        <form id="contactForm" novalidate style="margin-top: var(--space-4);">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="field">
+            <label for="reason">What's this about</label>
+            <select id="reason" name="reason">
+              <option value="session">Reserve a webinar seat</option>
+              <option value="catalog">Product question</option>
+              <option value="press">Partnership inquiry</option>
+              <option value="other">Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary">Send message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+
+      <div class="info-card">
+        <span class="eyebrow">Visit</span>
+        <div class="info-row"><span>Address</span><span>14 Foundry Lane, Innovation Hub</span></div>
+        <div class="info-row"><span>Phone</span><span>(555) 014-0192</span></div>
+        <div class="info-row"><span>Email</span><span>hello@ai-nexus.example</span></div>
+        <div class="info-row"><span>Webinars</span><span>20 seats, by reservation</span></div>
+        <div class="info-row"><span>Partnerships</span><span>partners@ai-nexus.example</span></div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>AI-Nexus</h4>
+        <p style="color: var(--paper-dim); font-size: var(--step--1); max-width: 32ch;">An AI product studio building intelligent automation tools. Practical AI, shipped fast.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <div class="footer-links">
+          <a href="#catalog">Products</a>
+          <a href="#shop">About &amp; hours</a>
+          <a href="#sessions">Webinars</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <div class="footer-links">
+          <a href="#">X / Twitter</a>
+          <a href="#">GitHub</a>
+          <a href="#">Newsletter</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AI-Nexus. All rights reserved.</span>
+      <span>Built by Milhan Musharaf with HTML, CSS &amp; Tailwind.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
